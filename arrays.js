@@ -1,9 +1,7 @@
 var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
 
 function addElementToBeginningOfArray(dog, cat){
-  var animals = ["cat", "dog", "bird", "lizard"];
-  
-  animals.unshift("foo", 1)
+  return[dog,...cat]
   
   return animals
 }
