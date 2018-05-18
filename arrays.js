@@ -5,6 +5,6 @@ function addElementToBeginningOfArray(dog, cat){
 }
 
 function destructivelyAddElementToBeginningOfArray(dog, cat){
-  array.unshift(element)
-  return array
+  dog.unshift(cat)
+  return dog
 }
