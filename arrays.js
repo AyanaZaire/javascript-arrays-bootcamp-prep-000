@@ -14,5 +14,6 @@ function addElementtoEndOfArray(){
 }
 
 function destructivelyAddElementToEndOfArray(){
-  
+  array.unshift(element)
+  return array
 }
