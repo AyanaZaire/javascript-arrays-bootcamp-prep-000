@@ -4,10 +4,6 @@ function addElementToBeginningOfArray(dog, cat){
   return[cat,...dog]
 }
 
-function destructivelyAddElementToBeginningOfArray (){
-  var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
-  
-  chocolateBars["reeses"]
-  
-  return chocolateBars
+function destructivelyAddElementToBeginningOfArray(dog, cat){
+  return[cat,...dog]
 }
